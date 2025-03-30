@@ -1,0 +1,35 @@
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("heart.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+.icons i {
+  font-size: 60px; 
+}
+
+.icn {
+  font-size: 70px; 
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+  
+  .bounce {
+    display: inline-block;
+    animation: bounce 0.5s infinite ease-in-out;
+  }
+  
